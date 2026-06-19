@@ -1,0 +1,15 @@
+{
+  "name": "myelix",
+  "version": "0.1.0",
+  "description": "Biomimetic cognitive core — internal drive, hormone system, tick-based autonomous loop",
+  "type": "module",
+  "main": "./src/index.ts",
+  "scripts": {
+    "demo": "tsx src/demo.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "tsx": "^4.0.0",
+    "typescript": "^5.5.0"
+  }
+}

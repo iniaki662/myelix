@@ -1,0 +1,46 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build output
+dist/
+build/
+out/
+*.tsbuildinfo
+
+# Environment
+.env
+.env.local
+.env.*.local
+.envrc
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.vim/
+
+# Test
+coverage/
+.vitest-cache/
+.turbo/
+
+# Temp
+tmp/
+temp/
+*.tmp
+*.bak
+
+# TypeScript
+*.tsbuildinfo
+tsconfig.tsbuildinfo
